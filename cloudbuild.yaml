@@ -1,0 +1,3 @@
+steps:
+  - name: gcr.io/tominaga-dev-manager/firebase
+    args: ['deploy', '--project=tominaga-dev-manager', '--only=hosting']
